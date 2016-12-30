@@ -1,0 +1,238 @@
+
+
+.main_window{
+
+    -fx-background-color: rgb(150,150,150,.4);
+    -fx-opacity: 0.9;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: rgba(0,0,0,0.6);
+    -fx-background-image: url('../img/main_image.png');
+    -fx-background-position: center;
+}
+
+.working_window{
+
+     -fx-background-color: rgb(150,150,150,.1);
+     -fx-opacity: 1;
+     -fx-background-radius: 10;
+     -fx-border-radius: 10;
+     -fx-border-color: rgba(0,0,0,0.6);
+     -fx-background-position: center;
+     -fx-top-spacing: 5;
+     -fx-bottom-spacing: 10;
+     -fx-spacing: 0;
+}
+
+
+.ROOT_INPUT{
+
+     -fx-background-color: rgb(246,239, 239);
+     -fx-opacity: 1;
+     -fx-background-radius: 10;
+     -fx-border-radius: 10;
+     -fx-border-width: 2;
+     -fx-border-color: rgba(0,0,0,0.6);
+     -fx-background-position: center;
+     -fx-top-spacing: 10;
+     -fx-bottom-spacing: 10;
+     -fx-spacing: 5;
+
+}
+
+.tooltip{
+
+     -fx-background-color: rgb(150,150,150,.1); // 0 делает окно полностью прозрачным
+     -fx-opacity: 1;
+     -fx-background-radius: 10;
+     -fx-border-radius: 10;
+     -fx-border-color: rgba(0,0,0,0.6);
+     -fx-background-image: url('../img/tooltip_image.png');
+     -fx-background-position: center;
+     -fx-top-spacing: 5;
+     -fx-bottom-spacing: 10;
+     -fx-spacing: 0;
+}
+
+.setting_window{
+
+     -fx-background-color: rgb(150,150,150,.1);
+     -fx-opacity: 1;
+     -fx-background-radius: 10;
+     -fx-border-radius: 10;
+     -fx-border-color: rgba(0,0,0,0.6);
+     -fx-background-position: center;
+     -fx-top-spacing: 5;
+     -fx-bottom-spacing: 10;
+     -fx-spacing: 0;
+}
+
+.tooltip_window{
+
+     -fx-background-color: rgb(150,150,150,.1);
+     -fx-opacity: 1;
+     -fx-background-radius: 10;
+     -fx-border-radius: 10;
+     -fx-border-color: rgba(0,0,0,0.6);
+     -fx-background-position: center;
+     -fx-top-spacing: 5;
+     -fx-bottom-spacing: 10;
+     -fx-spacing: 0;
+     -fx-background-image: url('../img/hint.png');
+}
+
+
+.namePane{
+
+            -fx-background-color: rgb(150,150,150,.0);
+            -fx-opacity: 1;
+            -fx-background-radius: 8;
+            -fx-border-radius: 8;
+            -fx-border-color: rgba(0,0,0,0.0);
+            -fx-background-position: center;
+            -fx-top-spacing: 5;
+            -fx-bottom-spacing: 10;
+            -fx-spacing: 0;
+            -fx-background-image: url('../img/name_image.png');
+
+}
+
+.yandexPane{
+
+    -fx-background-color: rgb(150,150,150,.0);
+    -fx-opacity: 1;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-image: url('../img/yandex_image.png');
+    -fx-background-position: center;
+}
+
+        .yandexPaneNew{
+                    -fx-background-image: url('../img/yandex_image_new.png');
+                }
+
+                   .yandexPaneWarning{
+                                    -fx-background-image: url('../img/yandex_image_warning.png');
+                                }
+
+                                        .yandexPaneNotNewMessage{
+                                            -fx-background-image: url('../img/yandex_image.png');
+                                        }
+.yahooPane{
+
+    -fx-background-color: rgb(150,150,150,.0);
+    -fx-opacity: 1;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-image: url('../img/yahoo_image.png');
+    -fx-background-position: center;
+}
+
+        .yahooPaneNew{
+            -fx-background-image: url('../img/yahoo_image_new.png');
+        }
+
+                   .yahooPaneWarning{
+                                    -fx-background-image: url('../img/yahoo_image_warning.png');
+                                }
+
+                                     .yahooPaneNotNewMessage{
+                                                                                -fx-background-image: url('../img/yahoo_image.png');
+                                                                            }
+
+.mailPane{
+
+    -fx-background-color: rgb(150,150,150,.0);
+    -fx-opacity: 1;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-image: url('../img/mail_image.png');
+    -fx-background-position: center;
+}
+        .mailPaneNew{
+            -fx-background-image: url('../img/mail_image_new.png');
+        }
+
+                   .mailPaneWarning{
+                                    -fx-background-image: url('../img/mail_image_warning.png');
+                                }
+
+                                     .mailPaneNotNewMessage{
+                                                                                -fx-background-image: url('../img/mail_image.png');
+                                                                            }
+
+.gmailPane{
+
+    -fx-background-color: rgb(150,150,150,.0);
+    -fx-opacity: 1;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-image: url('../img/gmail_image.png');
+    -fx-background-position: center;
+}
+
+        .gmailPaneNew{
+            -fx-background-image: url('../img/gmail_image_new.png');
+        }
+
+                   .gmailPaneWarning{
+                                    -fx-background-image: url('../img/gmail_image_warning.png');
+                                }
+
+                                     .gmailPaneNotNewMessage{
+                                                                                -fx-background-image: url('../img/gmail_image.png');
+                                                                            }
+
+.settingPane{
+
+    -fx-background-color: rgb(150,150,150,.0);
+    -fx-opacity: 1;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-image: url('../img/setting_image.png');
+    -fx-background-position: center;
+
+}
+
+.closePane{
+
+    -fx-background-color: rgb(150,150,150,.0);
+    -fx-opacity: 1;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-image: url('../img/close_image.png');
+    -fx-background-position: center;
+
+}
+
+// Отображает панель с инструментами - Закрыть - Плей - Пауза
+
+// Для отображения стрелочки Плей
+.play_state{
+
+    -fx-background-color: rgb(150,150,150,.0);
+    -fx-opacity: 1;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-position: center;
+    -fx-background-position: center;
+    -fx-background-image: url('../img/play_image.png');
+
+}
+
+// Для отображения стрелочки Пауза
+.pause_state{
+
+    -fx-background-color: rgb(150,150,150,.0);
+    -fx-opacity: 1;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-position: center;
+    -fx-background-position: center;
+    -fx-background-image: url('../img/pause_image.png');
+}
+
+
+
+
+

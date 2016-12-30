@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.settingPart.AboutUsController">
+   <children>
+      <Label layoutX="19.0" layoutY="28.0" prefHeight="93.0" prefWidth="313.0" text="  Spacelore - это стремительно развивающаяся IT компания, которая занимается разработкой современного серверного ПО на языке Java." wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="131.0" prefHeight="20.0" prefWidth="76.0" text="Наш сайт:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="140.0" layoutY="127.0" text="spacelore.dp.ua" onMouseClicked="#goToSpacelore">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Hyperlink>
+      <Button layoutX="140.0" layoutY="167.0" mnemonicParsing="false" onMouseClicked="#exit" prefHeight="25.0" prefWidth="39.0" text="Ok" />
+   </children>
+</Pane>
