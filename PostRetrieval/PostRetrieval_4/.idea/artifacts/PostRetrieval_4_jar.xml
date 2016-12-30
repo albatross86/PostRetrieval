@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PostRetrieval_4:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PostRetrieval_4_jar</output-path>
+    <root id="archive" name="PostRetrieval_4.jar">
+      <element id="module-output" name="PostRetrieval_4" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mail-1.4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/JLayer_1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json-simple-1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
